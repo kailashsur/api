@@ -1,0 +1,30 @@
+# POST http://localhost:3000/create-blog
+# Content-Type : application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzgyMDIxNjc1NTcwMjNlOGRjN2U2MiIsImlhdCI6MTcwMjM3MTM2MX0.Dnnh5MZvtMpqHWX-V71avmpFSqgFhhv1DfmqINCAM_M
+
+# {
+#     "title" : "What Is The true story of mrs chatterjee vs norway? ",
+#     "banner" : "https://blog-medium-in.s3.ap-south-1.amazonaws.com/%201h8iBT8fAoAJjkgRpKlnj-1702443076808.jpeg",
+#     "description" : "This is a short description",
+#     "content" : {
+#         "blocks" : [1,2,3]
+#     },
+#     "tags" : [ "tags1" ]
+# }
+
+# POST http://localhost:3000/signup
+# Content-Type : application/json
+
+# {
+#     "fullname" : "Abhi",
+#     "email" : "abhi@gmail.com",
+#     "password" : "Abhi@123"
+# }
+
+
+POST http://localhost:3000/search-blogs
+Content-Type: application/json
+
+{
+    "tags" : "trendings"
+}
